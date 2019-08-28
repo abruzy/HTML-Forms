@@ -54,3 +54,116 @@ button.btn a {
     color: white;
     font-size: 16px;
 }
+
+.main-section {
+    position: absolute;
+    left: 32%;
+    align-items: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+.logos-section ul {
+    list-style-type: none;
+}
+.logos-section li{
+    float: left;
+}
+.logos-section span{
+    margin-top: -5px;
+}
+.logo{
+    width: 315px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 100%;
+    text-align: center;
+    margin-left: -195px;
+}
+.form-section{
+    width:380px;
+    height: 668px;
+    background-color: white;
+    border: 1px solid #dcd7d7;
+}
+.form-section h2{
+    text-align: center;
+
+
+}
+.form-section p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+.form-section label {
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.form-section input[type="text"] {
+    position: relative;
+    width: 300px;
+    margin-left: 27px;
+    padding: 7px;
+    margin-bottom: 28px;
+}
+.p-phone {
+    font-size: 12px;
+    display: inherit;
+    margin-left: 27px;
+    margin-top: -18px;
+    margin-bottom: 27px;
+}
+.form-section button {
+    padding: 12px 95px 12px 95px;
+    background: #0077C5;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #0077c5;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 27px;
+    border-radius: 4px;
+}  
+footer span{
+    font-size: 12px;
+    color: #eceef1;
+    font-style: italic;
+    
+}     
+footer{
+    text-align: center;
+    margin: 33px 0px 4px 22px;
+}
+section {
+    background: #ECEEF1;
+    text-align: center;
+    margin: 74px 0px 0px;
+    padding: 17px;
+    font-size: 12px;
+    color: #eceef1;
+}
+.below-footer ul{
+    list-style-type: none;
+}
+.below-footer li{
+    float: left;
+    text-align: center;
+    color: #eceef1;
+    font-size: 13px;
+    padding: 6px;
+    margin: 0 auto;
+}
+.copyright span{
+    color: #505050;
+    text-align: center;
+    font-size: 13px;
+display: inline-block;
+margin-top: 10px;
+}
+
+.desc {
+    margin-left: 10px;
+}
