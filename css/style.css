@@ -70,6 +70,12 @@ button.btn a {
     float: left;
 }
 
+footer span {
+    font-size: 12px;
+    color: #eceef1;
+    font-style: italic;
+}
+
 .logos-section span {
     margin-top: -5px;
 }
@@ -86,7 +92,7 @@ button.btn a {
 }
 
 .form-section {
-    width:380px;
+    width: 380px;
     height: 668px;
     background-color: white;
     border: 1px solid #dcd7d7;
@@ -135,12 +141,6 @@ button.btn a {
     text-align: center;
     margin-left: 27px;
     border-radius: 4px;
-}  
-
-footer span {
-    font-size: 12px;
-    color: #eceef1;
-    font-style: italic;
 }
 
 footer {
@@ -181,3 +181,4 @@ section {
 .desc {
     margin-left: 10px;
 }
+
