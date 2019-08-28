@@ -1,0 +1,53 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eceef1;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hint * {
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+nav .container {
+    align-items: center;
+    color: #505050;
+    display: flex;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    height: 60px;
+}
+
+nav .signUp-button {
+    align-items: center;
+    background: #0077c5;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    height: 37px;
+    margin: 0 1.2rem;
+    padding: 0 1.25rem;
+}
+
+nav a {
+    color: #0077c5;
+}
+
+.signUp-button img {
+    margin-right: 0.5rem;
+    width: 0.85rem;
+}
