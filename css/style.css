@@ -8,8 +8,8 @@ body {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -20,7 +20,7 @@ body {
 .navigation-column {
   float: right;
   overflow: hidden;
-  margin-right: 20px
+  margin-right: 20px;
 }
 
 #already {
@@ -30,7 +30,7 @@ body {
 
 #recovery-link {
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
   font-size: 14px;
 }
 
@@ -41,7 +41,7 @@ body {
   color: #fff;
   height: 35px;
   width: 100px;
-  background: #0077C5;
+  background: #0077c5;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
 }
@@ -64,7 +64,7 @@ body {
   border: 1px solid #c7c7c7;
   width: 380px;
   text-align: center;
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-family: 'Nunito Sans', sans-serif;
   padding-top: 30px;
 }
@@ -115,7 +115,7 @@ input {
 }
 
 .account-info label {
-  color: #4C4C4C;
+  color: #4c4c4c;
   display: block;
   margin-bottom: 30px;
   text-align: left;
@@ -152,7 +152,6 @@ input {
   transform: scale(-1, 1);
   opacity: 0.5;
   filter: alpha(opacity=50);
-  /* For IE8 and earlier */
 }
 
 .account-action {
@@ -166,8 +165,8 @@ input {
   height: 45px;
   display: block;
   margin: 10px auto;
-  background: #0077C5;
-  border: #0077C5;
+  background: #0077c5;
+  border: #0077c5;
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
@@ -197,12 +196,12 @@ input {
 #statement-link,
 #learn-more {
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
 }
 
 .form-footer {
   height: 50px;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   text-align: center;
   font-size: 10px;
   margin-top: 40px;
@@ -216,7 +215,7 @@ input {
 #privacy-policy,
 #captcha-terms {
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
 }
 
 footer {
@@ -224,7 +223,6 @@ footer {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-
 
 .lps {
   text-align: center;
@@ -242,3 +240,4 @@ footer {
   color: #505050;
   font-size: 14px;
 }
+
