@@ -1,0 +1,243 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eceef1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+.navigation-column {
+  float: right;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+#already {
+  font-size: 14px;
+  color: #757575;
+}
+
+#recovery-link {
+  text-decoration: none;
+  color: #0077c5;
+  font-size: 14px;
+}
+
+#sign-in-button {
+  margin-right: 20px;
+  float: right;
+  overflow: hidden;
+  color: #fff;
+  height: 35px;
+  width: 100px;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+}
+
+#intuit-logo {
+  display: block;
+  width: 118px;
+  margin: 40px auto 18px;
+  padding-top: 20px;
+}
+
+.logos-under {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.container {
+  background-color: #fff;
+  margin: auto;
+  border: 1px solid #c7c7c7;
+  width: 380px;
+  text-align: center;
+  color: #4c4c4c;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 30px;
+}
+
+.form-head {
+  line-height: 1.1;
+  font-size: 24px;
+  color: #404040;
+  font-weight: 550;
+}
+
+.form-head-text {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+#learn-more {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+form {
+  overflow: hidden;
+  width: 320px;
+  height: 390px;
+  margin: auto;
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: 2px;
+  margin: 0;
+}
+
+.account-info {
+  padding-top: 20px;
+}
+
+.account-info label {
+  color: #4c4c4c;
+  display: block;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.account-info input {
+  height: 34px;
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+
+#small-text {
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+}
+
+#password {
+  position: relative;
+}
+
+.fa-lock-open {
+  position: absolute;
+  top: 35px;
+  right: 8px;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.account-action {
+  position: relative;
+  width: 320px;
+  height: 40px;
+}
+
+.account-action .btn {
+  width: 320px;
+  height: 45px;
+  display: block;
+  margin: 10px auto;
+  background: #0077c5;
+  border: #0077c5;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15.75px;
+  padding: 6px 12px;
+}
+
+.fa-lock {
+  position: absolute;
+  top: 25px;
+  left: 85px;
+  color: white;
+}
+
+.terms {
+  text-align: center;
+  width: 340px;
+  margin: 20px auto;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+  color: #757575;
+}
+
+#link-terms-of-use,
+#statement-link,
+#learn-more {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.form-footer {
+  height: 50px;
+  background-color: #eceef1;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 40px;
+}
+
+.captcha {
+  padding: 20px;
+  color: #757575;
+}
+
+#privacy-policy,
+#captcha-terms {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+footer {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.lps {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.lps a {
+  text-decoration: none;
+  color: #505050;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.copyright {
+  color: #505050;
+  font-size: 14px;
+}
+
