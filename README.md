@@ -17,7 +17,7 @@
 
 ### ✨ Demo
 
-[demo](https://rawcdn.githack.com/abruzy/HTML-Forms/08e547354d4edf7aa2c569549dbc976689eeb9c0/index.html)
+[Demo](https://rawcdn.githack.com/abruzy/HTML-Forms/08e547354d4edf7aa2c569549dbc976689eeb9c0/index.html)
 
 ## Authors
 
